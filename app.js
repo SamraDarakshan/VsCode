@@ -6,7 +6,7 @@ var server = http.createServer(function(req,res){
 console.log('request was made: ' + req.url);
 res.writeHead(200,{'Content-Type':'text plain'})
 res.write('hey samra');
-res.write('new');
+
 res.end();
 });
 
